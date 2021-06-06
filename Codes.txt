@@ -1,0 +1,17 @@
+git init "Empieza a correr el git"
+git add (. para todos los archivos del directorio o nombrar el archivo de texto a guardar) "Agrega uno o varios archivos de texto al staging"
+git commit -m (Mensaje entre comillas) "Mueve los cambios que se encuentran en Staging al repositorio"
+git status "Muestra el estado de las modificaciones realizadas a un archivo"
+git log "Muestra la historia de los commits realizados"
+git checkout "Recupera el archivo que contenga el commit que se especifique"
+touch nombre_del_archivo.nombre_de_la_extension "crea un archivo vacío con la extensión que se especifique"
+mkdir nombre_de_la_carpeta "Crea una carpeta nueva en el directorio en el que estemos actualmente"
+git rm --cached "Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro."
+git rm --force "Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados)."
+git reset --soft "Borramos todo el historial y los registros de Git pero guardamos los cambios que tengamos en Staging, así podemos aplicar las últimas actualizaciones a un nuevo commit."
+git reset --hard "Borra todo. Todo todito, absolutamente todo. Toda la información de los commits y del área de staging se borra del historial."
+git reset HEAD "Este es el comando para sacar archivos del área de Staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto."
+cd "Cambiar de directorio"
+ls "consulta los archivos y carpetas en el directorio actual"
+ls -al 
+git diff 
