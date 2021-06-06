@@ -17,3 +17,4 @@ ls "consulta los archivos y carpetas en el directorio actual"
 ls -al 
 git diff numero_serie_commit1 numero-serie_commit2 
 git diff "Muestra la diferencia entre el archivo actualizado en el disco duro y su último commit"
+git show "Muestra el ultimo cambió que realicé a un archivo"
