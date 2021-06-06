@@ -3,7 +3,8 @@ git add (. para todos los archivos del directorio o nombrar el archivo de texto 
 git commit -m (Mensaje entre comillas) "Mueve los cambios que se encuentran en Staging al repositorio"
 git status "Muestra el estado de las modificaciones realizadas a un archivo"
 git log "Muestra la historia de los commits realizados"
-git checkout "Recupera el archivo que contenga el commit que se especifique"
+git log --stat "Muestra la historia de los commits realizados con más detalles, como la cantidad de bytes removidos o agregados"
+git checkout numero_serie_commit (o Master si se quiere recuperar la última actualización en un commit"Recupera el archivo que contenga el commit que se especifique"
 touch nombre_del_archivo.nombre_de_la_extension "crea un archivo vacío con la extensión que se especifique"
 mkdir nombre_de_la_carpeta "Crea una carpeta nueva en el directorio en el que estemos actualmente"
 git rm --cached "Elimina los archivos del área de Staging y del próximo commit pero los mantiene en nuestro disco duro."
@@ -14,4 +15,4 @@ git reset HEAD "Este es el comando para sacar archivos del área de Staging. No 
 cd "Cambiar de directorio"
 ls "consulta los archivos y carpetas en el directorio actual"
 ls -al 
-git diff 
+git diff numero_serie_commit1 numero-serie_commit2 
